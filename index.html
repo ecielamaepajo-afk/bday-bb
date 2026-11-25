@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For John Lee ♡</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- PASSWORD SCREEN -->
+  <section class="gate" id="gate">
+    <div class="gate-card">
+      <p class="eyebrow">A little universe made for you</p>
+      <div class="big-heart">♡</div>
+      <h1>Only for John Lee</h1>
+      <p>A birthday surprise filled with memories and little discoveries.</p>
+      <form id="passwordForm">
+        <input id="passwordInput" type="password" placeholder="Our secret password" required>
+        <button class="btn primary" type="submit">Unlock your surprise ♡</button>
+      </form>
+      <p class="error" id="passwordError"></p>
+      <small>Made with love by your asawa</small>
+    </div>
+  </section>
+
+  <main id="website" class="hidden">
+    <nav class="navbar">
+      <a class="brand" href="#home">For John Lee ♡</a>
+      <div class="nav-links">
+        <a href="#letter">Letter</a><a href="#memories">Memories</a>
+        <a href="#surprises">Surprises</a><a href="#our-time">Our Time</a>
+      </div>
+      <button class="btn outline" id="musicButton">♫ Play our song</button>
+    </nav>
+
+    <!-- Add your own MP3 beside index.html and name it music.mp3 -->
+    <audio id="song" loop><source src="music.mp3" type="audio/mpeg"></audio>
+
+    <!-- LIVE ANNIVERSARY COUNT-UP -->
+    <section class="section tinted anniversary-top" id="our-time">
+      <div class="heading"><p class="eyebrow">Since November 15, 2024</p><h2>Our time together</h2><p>A little count of all the time we've shared.</p></div>
+      <div class="timer-card">
+        <p class="eyebrow">And still counting</p>
+        <div class="timer-grid">
+          <div><strong id="years">0</strong><span>Years</span></div>
+          <div><strong id="days">0</strong><span>Days</span></div>
+          <div><strong id="hours">0</strong><span>Hours</span></div>
+          <div><strong id="minutes">0</strong><span>Minutes</span></div>
+          <div><strong id="seconds">0</strong><span>Seconds</span></div>
+        </div>
+        <p>Every second is another little piece of our story. ♡</p>
+      </div>
+    </section>
+
+    <header class="hero" id="home">
+      <span class="decoration d1">✧</span><span class="decoration d2">♡</span>
+      <p class="eyebrow">November 26, 2026 · A day for you</p>
+      <h1>Happy Birthday,<br><span>John Lee.</span></h1>
+      <p class="hero-copy">Today is a special day sako husband hehe. Nag effort kog himo ani babe daghan nausik na tubig dapat ganahan ka duhh.</p>
+      <a class="btn primary" href="#letter">Open your birthday letter ↓</a>
+    </header>
+
+    <!-- BIRTHDAY LETTER -->
+    <section class="section" id="letter">
+      <div class="heading"><p class="eyebrow">A message from Eciela</p><h2>Dear My Love,</h2><p>A few words from my heart.</p></div>
+      <article class="letter">
+        <h3>My dearest John Lee,</h3>
+        <p>Happy birthday to my handsome, humot, buotan, maldita, cute, my mvp, smart, funny, manyakis og lamion na uyab hehehe, bitaw babe same ra gyapon duhh permi nalang nako ni gina ingon sa imo and i will never get tired of telling you how much you really mean to me og grateful ko always and forever na ni abot ka sako life my love, thank you sa walay sawa na pag sabot sa akoa thank you love na waka mu give up miskan malditahay nako sa imo og unsa ko ka mean sa imo sometimes.
+           I'm really sorry baby, sorry sa tanan sala og hinanakit nako sa imo love, sorry baby ga padala o permi sako emotions. Pero kung kabalo lang ka na gina impil tika sako ampo permi duhhh ga ampo ko na tana mag bag o naka ug i guide ka ni lord unsaon pag control anang short temper nimo duhh HWHAHWHWHAHAHA ug syempre ga ampo ko na dapat mas mu strengthen pa ato relationship and hangtod sa hangtod nani hehehe.. baby enjoy your special day po and may this year will bring you so much love, joy, and more blessing with your family, wakoy lain wish babe kundi healthy lang ka always and always dream big, basta ako naa rako diri permi ga support and proud sa imo hehehe i love you so much my husband. Again Happy Birthday lovelove ko mwaps</p>
+        <p class="signature">Sincerely Yours,<br>Eciela ♡</p>
+      </article>
+    </section>
+
+    <!-- PHOTO GALLERY: put photo1.jpg ... photo12.jpg inside the photos folder -->
+    <section class="section tinted" id="memories">
+      <div class="heading"><p class="eyebrow">Our little collection</p><h2>Memories with you</h2><p>Click the photos para makita ang caption.</p></div>
+      <div class="gallery">
+        <button class="photo-card" data-src="photos/photo1.jpg" data-caption="First pic together"><img src="photos/photo1.jpg" alt="Memory 1"><span class="placeholder">♡<small>Add photo1.jpg</small></span><span class="caption">PIC 1</span></button>
+        <button class="photo-card" data-src="photos/photo2.jpg" data-caption="Favorite kiss pic"><img src="photos/photo2.jpg" alt="Memory 2"><span class="placeholder">✧<small>Add photo2.jpg</small></span><span class="caption">PIC 2</span></button>
+        <button class="photo-card" data-src="photos/photo3.jpg" data-caption="Cutie us here baby"><img src="photos/photo3.jpg" alt="Memory 3"><span class="placeholder">♡<small>Add photo3.jpg</small></span><span class="caption">PIC 3</span></button>
+        <button class="photo-card" data-src="photos/photo4.jpg" data-caption="Pa cute yarn ako bday boy"><img src="photos/photo4.jpg" alt="Memory 4"><span class="placeholder">✧<small>Add photo4.jpg</small></span><span class="caption">PIC 4</span></button>
+        <button class="photo-card" data-src="photos/photo5.jpg" data-caption="Latest pic nato cutie us"><img src="photos/photo5.jpg" alt="Memory 5"><span class="placeholder">♡<small>Add photo5.jpg</small></span><span class="caption">PIC 5</span></button>
+        <button class="photo-card" data-src="photos/photo6.jpg" data-caption="All time favorite back hug pic"><img src="photos/photo6.jpg" alt="Memory 6"><span class="placeholder">✧<small>Add photo6.jpg</small></span><span class="caption">PIC 6</span></button>
+        <button class="photo-card" data-src="photos/photo7.jpg" data-caption="All time favorite na stolen pic"><img src="photos/photo7.jpg" alt="Memory 7"><span class="placeholder">♡<small>Add photo7.jpg</small></span><span class="caption">PIC 7</span></button>
+        <button class="photo-card" data-src="photos/photo8.jpg" data-caption="Hehehe wedding ring yarn?"><img src="photos/photo8.jpg" alt="Memory 8"><span class="placeholder">✧<small>Add photo8.jpg</small></span><span class="caption">PIC 8</span></button>
+        <button class="photo-card" data-src="photos/photo9.jpg" data-caption="My favorite scripted pic hehe"><img src="photos/photo9.jpg" alt="Memory 9"><span class="placeholder">♡<small>Add photo9.jpg</small></span><span class="caption">PIC 9</span></button>
+        <button class="photo-card" data-src="photos/photo10.jpg" data-caption="Fave nako kay cute ko diri"><img src="photos/photo10.jpg" alt="Memory 10"><span class="placeholder">✧<small>Add photo10.jpg</small></span><span class="caption">PIC 10</span></button>
+        <button class="photo-card" data-src="photos/photo11.jpg" data-caption="First pic nato sako new phone"><img src="photos/photo11.jpg" alt="Memory 11"><span class="placeholder">♡<small>Add photo11.jpg</small></span><span class="caption">PIC 11</span></button>
+        <button class="photo-card" data-src="photos/photo12.jpg" data-caption="Kwek Kwek date with Mr.MVP"><img src="photos/photo12.jpg" alt="Memory 12"><span class="placeholder">✧<small>Add photo12.jpg</small></span><span class="caption">PIC 12</span></button>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE SURPRISES -->
+    <section class="section" id="surprises">
+      <div class="heading"><p class="eyebrow">Tap, click, and discover</p><h2>Little surprises</h2><p>Try each activity to discover something special.</p></div>
+      <div class="surprises">
+        <article class="surprise">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M12 34 31 15m-4-4 5-5 7 7-5 5M9 38l4-1-3-3-1 4Z"/><path d="m18 10 1.5 3.5L23 15l-3.5 1.5L18 20l-1.5-3.5L13 15l3.5-1.5L18 10Z"/></svg></div><h3>Flip a birthday card</h3><p>Turn the card over to reveal a message.</p>
+          <button class="btn soft" id="flipButton">Flip the card</button>
+          <div class="flip-card" id="flipCard"><div class="flip-inner"><div class="flip-front">A little note for my husband ♡</div><div class="flip-back">May this year bring you more happiness, confidence, good opportunities, and more blessings.</div></div></div>
+        </article>
+        <article class="surprise">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="7" y="12" width="34" height="25" rx="5"/><path d="m9 16 15 11 15-11"/><path d="m31 8 1.5 3.5L36 13l-3.5 1.5L31 18l-1.5-3.5L26 13l3.5-1.5L31 8Z"/></svg></div><h3>Open a secret letter</h3><p>There's a little note tucked inside.</p>
+          <button class="btn soft" id="letterButton">Open letter</button>
+          <div class="reveal hidden" id="secretLetter"> hehe naa mao ni ako gift sa imo babe ug ang isa wala pa ma delay pato AHHAAHAH and syempre
+            kay love man tika mag 7/11 ta pag human sa ako period HAHAHHAHHAAH mwapsps♡</div>
+        </article>
+        <article class="surprise">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 21v19M12 40h24M16 21h16v19H16z"/><path d="M24 21c-3-1-10-3-10-8 0-5 7-5 10 8Zm0 0c3-1 10-3 10-8 0-5-7-5-10 8Z"/></svg></div><h3>Pick a reason</h3><p>Get a random reason why you're appreciated.</p>
+          <button class="btn soft" id="reasonButton">Pick one </button>
+          <div class="reveal" id="reasonResult">Your surprise will appear here ♡</div>
+        </article>
+        <article class="surprise">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="10" y="12" width="28" height="27" rx="5"/><path d="M17 8v8m14-8v8M10 20h28m-21 7 4 4 8-8"/><path d="m37 8 1 2.5 2.5 1-2.5 1L37 15l-1-2.5-2.5-1 2.5-1L37 8Z"/></svg></div><h3>Anniversary quiz</h3><p>Do you remember our special date?</p>
+          <p class="question">When is our anniversary?</p>
+          <div class="quiz-options">
+            <button data-correct="false">November 15, 2023</button>
+            <button data-correct="true">November 15, 2024</button>
+            <button data-correct="false">November 25, 2024</button>
+          </div>
+          <div class="reveal" id="quizResult">Choose an answer.</div>
+        </article>
+        <article class="surprise gift-surprise">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M9 21h30v20H9zM6 15h36v7H6zM24 15v26"/><path d="M24 15c-3-1-10-2-10-7 0-4 7-4 10 7Zm0 0c3-1 10-2 10-7 0-4-7-4-10 7Z"/></svg></div>
+          <h3>A gift from my heart</h3>
+          <p>There's something special inside, made just for you.</p>
+          <button class="gift" id="giftButton" type="button" aria-label="Unwrap your birthday gift" aria-expanded="false" aria-controls="giftMessage">
+            <span class="gift-visual" aria-hidden="true">
+              <span class="gift-box-body"></span>
+              <span class="gift-lid"></span>
+            </span>
+          </button>
+          <p class="gift-hint" id="giftHint">Tap the present to unwrap your letter ♡</p>
+          <article class="gift-letter hidden" id="giftMessage" aria-live="polite">
+            <span class="gift-letter-heart" aria-hidden="true">♡</span>
+            <p class="eyebrow">A little letter for my husband</p>
+            <h4>Happy Birthday, my love</h4>
+            <div class="gift-letter-body">
+              <p>Hi love, welcome sa new chapter sa imo life.</p>
+              <p>Tana always nimo i remember na i love you and Im always grateful na ikaw ako uyab.</p>
+              <p>Thank you for helping me grow as a person. Basta forever rako naa diri sa imo ga support hehe.</p>
+              <p>I love you so much, my husband. ♡</p>
+            </div>
+            <p class="gift-signature">Forever yours,<br><span>Eciela ♡</span></p>
+          </article>
+        </article>
+        <article class="surprise">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 38S8 29 8 18c0-8 10-11 16-3 6-8 16-5 16 3 0 11-16 20-16 20Z"/><path d="m9 8 1.5 3.5L14 13l-3.5 1.5L9 18l-1.5-3.5L4 13l3.5-1.5L9 8Zm30 18 1.5 3.5L44 31l-3.5 1.5L39 36l-1.5-3.5L34 31l3.5-1.5L39 26Z"/></svg></div><h3>Make it sparkle</h3><p>Press the button to fill the screen with floating hearts.</p>
+          <button class="btn soft" id="heartButton">Send some hearts ✨</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- REASONS -->
+    <section class="section tinted">
+      <div class="heading"><p class="eyebrow">A few little reasons</p><h2>Reasons you're special</h2><p>Pop each balloon to reveal a reason you're special.</p></div>
+      <div class="reasons">
+        <div class="reason-item">
+          <button class="reason-balloon" type="button" aria-label="Pop balloon to reveal: Your smile">
+            <span class="balloon-shape" aria-hidden="true"></span><span class="balloon-string" aria-hidden="true"></span>
+          </button>
+          <div class="reason-card hidden">Your smile ♡</div>
+        </div>
+        <div class="reason-item">
+          <button class="reason-balloon" type="button" aria-label="Pop balloon to reveal: Your kind heart">
+            <span class="balloon-shape" aria-hidden="true"></span><span class="balloon-string" aria-hidden="true"></span>
+          </button>
+          <div class="reason-card hidden">Your kind heart</div>
+        </div>
+        <div class="reason-item">
+          <button class="reason-balloon" type="button" aria-label="Pop balloon to reveal: Your sense of humor">
+            <span class="balloon-shape" aria-hidden="true"></span><span class="balloon-string" aria-hidden="true"></span>
+          </button>
+          <div class="reason-card hidden">Your sense of humor</div>
+        </div>
+        <div class="reason-item">
+          <button class="reason-balloon" type="button" aria-label="Pop balloon to reveal: Your determination">
+            <span class="balloon-shape" aria-hidden="true"></span><span class="balloon-string" aria-hidden="true"></span>
+          </button>
+          <div class="reason-card hidden">Your determination</div>
+        </div>
+        <div class="reason-item">
+          <button class="reason-balloon" type="button" aria-label="Pop balloon to reveal: Your laugh">
+            <span class="balloon-shape" aria-hidden="true"></span><span class="balloon-string" aria-hidden="true"></span>
+          </button>
+          <div class="reason-card hidden">Your laugh</div>
+        </div>
+        <div class="reason-item">
+          <button class="reason-balloon" type="button" aria-label="Pop balloon to reveal: Simply being you">
+            <span class="balloon-shape" aria-hidden="true"></span><span class="balloon-string" aria-hidden="true"></span>
+          </button>
+          <div class="reason-card hidden">Simply being you</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE BIRTHDAY CAKE -->
+    <section class="section cake-section" id="cake">
+      <div class="heading"><p class="eyebrow">Make a birthday wish</p><h2>Blow out the candles</h2><p>Take a breath, make a wish, and blow them out.</p></div>
+      <div class="cake-experience" id="cakeExperience">
+        <div class="candles" id="candles" aria-label="Five birthday candles">
+          <span class="candle"><i class="flame"></i></span>
+          <span class="candle"><i class="flame"></i></span>
+          <span class="candle"><i class="flame"></i></span>
+          <span class="candle"><i class="flame"></i></span>
+          <span class="candle"><i class="flame"></i></span>
+        </div>
+        <div class="cake" aria-label="A birthday cake">
+          <div class="cake-top"></div>
+          <div class="cake-layer"><span></span><span></span><span></span><span></span><span></span></div>
+        </div>
+        <p class="wish-status" id="wishStatus">The candles are glowing for you ♡</p>
+        <button class="btn primary blow-button" id="blowButton" type="button">Blow out the candles ♡</button>
+        <button class="btn soft relight-button hidden" id="relightButton" type="button">Light them again</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="eyebrow">One last thing</p><h2>Happy Birthday, John Lee.</h2>
+      <p>Wishing you a year filled with growth, happiness, good memories, and beautiful new beginnings.</p>
+      <p class="signature">Made with love by your asawa ♡</p>
+    </footer>
+  </main>
+
+  <!-- PHOTO POP-UP VIEWER -->
+  <div class="lightbox hidden" id="lightbox">
+    <button id="closeLightbox" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Selected memory">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
